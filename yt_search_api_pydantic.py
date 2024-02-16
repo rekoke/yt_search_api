@@ -55,9 +55,9 @@ class YoutubeSearchResponse(BaseModel):
     regionCode: str
     
     
-class Fruit(BaseModel):
-    name: str  
-    color: Literal['red', 'green']  
-    weight: Annotated[float, Gt(0)]  
-    bazam: Dict[str, List[Tuple[int, bool, float]]]  
+# class Fruit(BaseModel):
+#     name: str  
+#     color: Literal['red', 'green']  
+#     weight: Annotated[float, Gt(0)]  
+#     bazam: Dict[str, List[Tuple[int, bool, float]]]  
 
